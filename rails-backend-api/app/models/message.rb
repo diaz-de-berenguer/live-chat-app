@@ -7,7 +7,8 @@ class Message < ApplicationRecord
 
 		def broadcast_message
 			ActionCable.server.broadcast 'messages', {
-				message:  self.content,
+				id:       self.id,
+				content:  self.content,
 				username: self.username
 			}
 		end
