@@ -5,17 +5,17 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+/rails-backend-api/.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+/rails-backend-api/db/*.sqlite3
+/rails-backend-api/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/rails-backend-api/log/*
+/rails-backend-api/tmp/*
+!/rails-backend-api/log/.keep
+!/rails-backend-api/tmp/.keep
 
 # Ignore Byebug command history file.
-.byebug_history
+/rails-backend-api/.byebug_history
